@@ -1,0 +1,129 @@
+/*Estilos generales del cuerpo de la página*/
+body {
+    color: rgb(19, 25, 209);/*Define el color del texto en negro*/
+    background-color:rgb(124, 223, 246);/* Establece el fondo de la página en rojo*/
+    margin: 0;/*Elimina los márgenes predeterminados del navegador*/
+    padding: 0;/*Elimina el relleno predeterminado del navegador*/
+}
+
+section.CSS {
+    background-color: rgb(25, 6, 167);/*Define el fondo de la sección en negro*/
+    width: 250%;  /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    max-width: 1300px; /*Máximo ancho para mantener el diseño ordenado*/
+    margin: 20px auto; /*Centra la sección en la pantalla*/
+    padding: 20px; /*Espaciado interno para mejorar la apariencia*/
+    border-radius: 10px; /*Bordes redondeados para un mejor diseño*/
+    box-shadow: 0px 4px 8px white; /*Sombra para resaltar*/
+    color: white;/*Define el color del texto en blanco*/
+}
+section.JavaScript {
+    background-color: rgb(37, 0, 107);/*Define el fondo de la sección en azul*/
+    width: 250%;  /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    max-width: 1300px; /*Máximo ancho para mantener el diseño ordenado*/
+    margin: 20px auto; /*Centra la sección en la pantalla*/
+    padding: 20px; /*Espaciado interno para mejorar la apariencia*/
+    border-radius: 10px; /*Bordes redondeados para un mejor diseño*/
+    box-shadow: 0px 4px 8px white; /*Sombra para resaltar*/
+    color: white; /*Define el color del texto en blanco*/
+}
+.Menu ul {
+    display: flex; /*Usa el modelo de caja flexible (Flexbox) para organizar los elementos dentro del contenedor*/
+    padding: 0; /*Espaciado interno para mejorar la apariencia*/
+    margin: 0; /*Centra la sección en la pantalla*/
+    list-style: none; /*Elimina los estilos de lista predeterminados (como los puntos o números en una lista*/
+    justify-content: center; /*Centra horizontalmente los elementos dentro del contenedor*/
+    position: relative; /*Define una posición relativa, lo que permite posicionar elementos secundarios de manera absoluta dentro de este contenedor*/
+    background-color: rgb(4, 17, 255); /*Define el fondo de la sección en negro*/
+    border-radius: 10px; /* Bordes redondeados */
+    color: black;
+}
+
+.Menu a {
+    display: block; /*Usa el modelo de caja flexible (Flexbox) para organizar los elementos dentro del contenedor*/
+    padding: 10px 20px; /*Espaciado interno para mejorar la apariencia*/
+    background-color: rgb(5, 29, 238); /*Define el fondo de la sección en negro*/
+    text-decoration: none;  /*elimina cualquier decoración del texto, como subrayados, líneas encima o tachados*/
+    color:rgb(39, 203, 228); /*Define el color del texto en blanco*/
+    font-weight: bold; /*Define el grosor del texto*/
+    transition: background 0.3s; /*Aplica un efecto de transición suave cuando cambia el color de fondo (background)*/
+}
+
+.Menu a:hover {
+    background-color: white; /*Define el fondo de la sección en blanco*/
+    color:black; /*Define el color del texto en negro*/
+}
+
+.Menu ul li {
+    position: relative; /*Define una posición relativa, lo que permite posicionar elementos secundarios de manera absoluta dentro de este contenedor*/
+    text-align: center;
+}
+
+.Menu ul li ul {
+    display: none; /*Usa el modelo de caja flexible (Flexbox) para organizar los elementos dentro del contenedor*/
+    position: absolute; /*Define una posición relativa, lo que permite posicionar elementos secundarios de manera absoluta dentro de este contenedor*/
+    top: 100%;
+    left: 0;
+    padding: 0;  /*Espaciado interno para mejorar la apariencia*/
+    margin: 0; /*Centra la sección en la pantalla*/
+    list-style: none;
+    background-color: #dd634a; /*Define el fondo de la sección en rojo*/
+    text-align: center;
+    min-width: 150px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 8px black;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Menu ul li ul li {
+    display: block; /*Usa el modelo de caja flexible (Flexbox) para organizar los elementos dentro del contenedor*/
+}
+
+.Menu ul li ul li a {
+    color: black; /*cambia el color del texto de los enlaces a negro.*/
+    padding: 10px 20px; /*Agrega espacio interno alrededor del texto del enlace */
+}
+.Menu ul li ul li a:hover {
+    background-color:red; /*Define el fondo de la sección en rojo*/
+}
+.Menu ul li:hover ul {
+    display: block; /*Usa el modelo de caja flexible (Flexbox) para organizar los elementos dentro del contenedor*/
+}
+.CSS img, .JavaScript img{
+    width: 800px; /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    height: 300px;
+    border-radius: cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth; /* Hace que el desplazamiento desde el menu sea lento*/
+}
+table {
+    width: 100%; /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    border-collapse: collapse;
+    border-color: white;
+}
+
+th, td {
+    padding: 10px;  /*Agrega espacio interno alrededor del texto del enlace */
+    text-align: center;
+}
+
+section.Tabla {
+    overflow-x: auto;
+}
+ 
+footer {
+    background-color: rgb(81, 10, 232);
+    width: 80%;  /*Ajusta el ancho para que no ocupe toda la pantalla*/
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px white; 
+    text-align:  center;
+    color: white;
+} 
+
+
